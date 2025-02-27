@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 60px;
+}
+
+.btnGood {
+  background-color: green;
+  border: 1px solid green;
+  border-radius: 5%;
+  color: white;
+}
+
+.btnNeutral {
+  background-color: rgb(209, 209, 39);
+  border: 1px solid rgb(209, 209, 39);
+  border-radius: 5%;
+  color: white;
+}
+
+.btnBad {
+  background-color: red;
+  border: 1px solid red;
+  border-radius: 5%;
+  color: white;
+}
+
+.btnReset {
+  background-color: blue;
+  border: 1px solid blue;
+  border-radius: 5%;
+  color: white;
+  margin-left: 40px;
+}
