@@ -7,7 +7,6 @@ const Options = ({ feedback, onUpdateFeedback, totalfeedback }) => {
         className={styles.btnGood}
         onClick={() => onUpdateFeedback('good')}
       >
-        {' '}
         Good
       </button>
       <button
