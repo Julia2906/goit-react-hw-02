@@ -19,7 +19,7 @@ const Options = ({ feedback, onUpdateFeedback, totalfeedback }) => {
         Bad
       </button>
       {totalfeedback > 0 && (
-        <button className={styles.btnReset} onClick={() => onUpdateFeedback(0)}>
+        <button className={styles.btnReset} onClick={() => onUpdateFeedback('reset')}>
           Reset
         </button>
       )}

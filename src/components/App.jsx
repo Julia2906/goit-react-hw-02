@@ -23,7 +23,7 @@ const App = () => {
   });
 
   const updateFeedback = feedbackType => {
-    if (feedbackType === 0) {
+    if (feedbackType === 'reset') {
       setFeedback({ good: 0, neutral: 0, bad: 0 });
     } else
       setFeedback(prevFeedback => ({
